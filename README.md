@@ -1,17 +1,12 @@
 # 🚀 ACAI_V1 — AI-Powered Hand Gesture Control System
 
-![Python](https://img.shields.io/badge/Python-3.14+-blue)
-![MediaPipe](https://img.shields.io/badge/MediaPipe-0.10.35-green)
-![OpenCV](https://img.shields.io/badge/OpenCV-Latest-orange)
-![License](https://img.shields.io/badge/License-MIT-lightgrey)
-
 Transform your webcam into a touchless computer controller using real-time Computer Vision and AI-powered hand gesture recognition.
 
-ACAI_V1 (Advanced Computer-Aided Interaction) is a real-time gesture control system built with Google's MediaPipe Hand Landmarker and OpenCV. The application detects hand gestures through a webcam feed and converts them into system-level actions such as screenshots, media controls, application navigation, and desktop management.
+**ACAI_V1** (Advanced Computer-Aided Interaction) is a real-time gesture control system built with Google's MediaPipe Hand Landmarker and OpenCV. The application detects hand gestures through a webcam feed and converts them into system-level actions such as screenshots, media controls, application navigation, and desktop management.
 
 ---
 
-# 🎯 Features
+## 🎯 Features
 
 ### 🔵 Right Hand — Productivity Controls
 
@@ -30,8 +25,7 @@ ACAI_V1 (Advanced Computer-Aided Interaction) is a real-time gesture control sys
 
 ---
 
-
-# 🛠 Technology Stack
+## 🛠️ Technology Stack
 
 * Python 3.14+
 * OpenCV
@@ -42,12 +36,10 @@ ACAI_V1 (Advanced Computer-Aided Interaction) is a real-time gesture control sys
 
 ---
 
-# 🧠 Skills Demonstrated
+## 🧠 Skills Demonstrated
 
-* Computer Vision
-* Real-Time Hand Tracking
-* Gesture Recognition
-* Human Computer Interaction (HCI)
+* Computer Vision & Real-Time Hand Tracking
+* Gesture Recognition & Human-Computer Interaction (HCI)
 * AI-Based Input Systems
 * OpenCV Development
 * Multi-Processing
@@ -57,9 +49,9 @@ ACAI_V1 (Advanced Computer-Aided Interaction) is a real-time gesture control sys
 
 ---
 
-# ⚙️ System Architecture
+## ⚙️ System Architecture
 
-## main.py
+### `main.py`
 
 Handles:
 
@@ -68,7 +60,7 @@ Handles:
 * Action cooldown management
 * System command execution
 
-## hand_tracker.py
+### `hand_tracker.py`
 
 Handles:
 
@@ -77,7 +69,7 @@ Handles:
 * Hand skeleton rendering
 * Gesture data extraction
 
-## utils.py
+### `utils.py`
 
 Handles:
 
@@ -88,7 +80,7 @@ Handles:
 
 ---
 
-# 🔥 Engineering Highlights
+## 🔥 Engineering Highlights
 
 ### Real-Time Performance
 
@@ -100,7 +92,7 @@ Implements gesture validation logic and hold-time detection to reduce accidental
 
 ### Multi-Process Notification System
 
-Uses Python multiprocessing to prevent GUI notifications from interrupting the vision pipeline.
+Uses Python multiprocessing to prevent GUI notifications from interrupting the main vision pipeline.
 
 ### Dynamic Screen Adaptation
 
@@ -112,7 +104,7 @@ Captured screenshots are instantly saved and accompanied by a floating notificat
 
 ---
 
-# 📂 Project Structure
+## 📂 Project Structure
 
 ```text
 ACAI_V1/
@@ -127,22 +119,22 @@ ACAI_V1/
 
 ---
 
-# 🚀 Installation
+## 🚀 Installation
 
-## 1. Clone the Repository
+### 1. Clone the Repository
 
 ```bash
 git clone https://github.com/Shivamshrma12/ACAI_V1.git
 cd ACAI_V1
 ```
 
-## 2. Install Dependencies
+### 2. Install Dependencies
 
 ```bash
 pip install opencv-python mediapipe==0.10.35 pyautogui
 ```
 
-## 3. Run the Application
+### 3. Run the Application
 
 ```bash
 python main.py
@@ -150,18 +142,18 @@ python main.py
 
 ---
 
-# 📋 Requirements
+## 📋 Requirements
 
 * Python 3.14+
 * Webcam
 * Windows Operating System
 * Internet connection (first launch only)
 
-> On first execution, MediaPipe automatically downloads the required hand tracking model (`hand_landmarker.task`). Future launches start immediately.
+> On first execution, MediaPipe automatically downloads the required hand tracking model (`hand_landmarker.task`).
 
 ---
 
-# 📈 Project Status
+## 📈 Project Status
 
 | Feature                     | Status     |
 | :-------------------------- | :--------- |
@@ -176,18 +168,18 @@ python main.py
 
 ---
 
-# 💡 Potential Applications
+## 💡 Potential Applications
 
 * Touchless Computer Interaction
 * Productivity Automation
-* Accessibility Solutions
 * Smart Workstations
+* Accessibility Solutions
 * Human-Computer Interaction Research
 * AI-Powered Desktop Control
 
 ---
 
-# 🤝 Contributing
+## 🤝 Contributing
 
 Contributions, feature requests, and suggestions are welcome.
 
@@ -195,13 +187,13 @@ Feel free to fork the repository and submit pull requests for improvements.
 
 ---
 
-# 📄 License
+## 📄 License
 
 This project is licensed under the MIT License.
 
 ---
 
-# 👨‍💻 Author
+## 👨‍💻 Author
 
 **Shivam Sharma**
 
